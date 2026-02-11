@@ -46,6 +46,12 @@ After establishing a connection, clients can send and receive data using send() 
 ## Use Cases of Socket Programming:
 Socket programming finds applications in various domains, including web development, file transfer protocols, online gaming, and real-time communication. It is the foundation for protocols like HTTP, FTP, and SMTP, which power the internet. Socket programming enables the development of both server and client applications, facilitating the exchange of information between devices in a networked environment.
 ## Algorithm:
+1. Import the necessary modules in python
+2. Create a socket connection to using the socket module.
+3. Send message to the client and receive the message from the client using the Socket module in
+ server .
+4. Send and receive the message using the send function in socket.
+## Program:
 Server side:
 ```
 import socket             
